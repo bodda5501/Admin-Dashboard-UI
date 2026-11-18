@@ -79,8 +79,90 @@
       </ul>
     </aside>
 
-    <!-- Main Content will be added in the next step -->
+    <!-- Main Dashboard Content -->
+    <main class="content">
+      <header class="title-info">
+        <div class="title-left">
+          <button id="menu-toggle" class="menu-btn" aria-label="Toggle Menu">
+            <i class="fas fa-bars"></i>
+          </button>
+          <p id="page-title">Dashboard</p>
+        </div>
+        <i class="fas fa-chart-bar"></i>
+      </header>
 
+      <!-- Stats Cards -->
+      <section class="data-info" aria-label="Key Metrics">
+        <div class="box">
+          <i class="fas fa-user"></i>
+          <div class="data">
+            <p>Users</p>
+            <span class="counter" data-target="100">0</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-pen"></i>
+          <div class="data">
+            <p>Posts</p>
+            <span class="counter" data-target="765">0</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-table"></i>
+          <div class="data">
+            <p>Products</p>
+            <span class="counter" data-target="34">0</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-dollar-sign"></i>
+          <div class="data">
+            <p>Revenue</p>
+            <span class="counter" data-target="156" data-prefix="$">$0</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Products Table -->
+      <div class="title-info">
+        <p>Products Inventory</p>
+        <i class="fas fa-table"></i>
+      </div>
+
+      <section class="table-container" aria-label="Products Table">
+        <table>
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Price</th>
+              <th>Count</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Smart TV 4K</td>
+              <td><span class="price">$165</span></td>
+              <td><span class="count">65</span></td>
+            </tr>
+            <tr>
+              <td>Design Handbook</td>
+              <td><span class="price">$321</span></td>
+              <td><span class="count">45</span></td>
+            </tr>
+            <tr>
+              <td>Stylus Pen</td>
+              <td><span class="price">$12</span></td>
+              <td><span class="count">32</span></td>
+            </tr>
+            <tr>
+              <td>Standing Desk</td>
+              <td><span class="price">$98</span></td>
+              <td><span class="count">78</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
     <script src="js/script.js" defer></script>
   </body>
 </html>
